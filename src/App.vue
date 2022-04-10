@@ -3,7 +3,7 @@
     <v-navigation-drawer v-model="drawer" app>
       <v-list-item>
         <v-list-item-content>
-          <v-list-item-title class="text-h6">
+          <v-list-item-title class="text-h6 ">
             Tiger To Do List
           </v-list-item-title>
           <v-list-item-subtitle>
@@ -30,8 +30,9 @@
       </v-list>
     </v-navigation-drawer>
 
-    <v-app-bar
+    <v-app-bar  
       app
+     height="200px"
       color="#fcb69f"
       dark
       src="https://picsum.photos/1920/1080?random"
@@ -46,7 +47,7 @@
 
       <v-app-bar-nav-icon @click="drawer = !drawer" ></v-app-bar-nav-icon>
 
-      <v-app-bar-title>Tiger To do list </v-app-bar-title>
+      <v-app-bar-title class="titlee" >Tiger To do list </v-app-bar-title>
 
       <v-spacer></v-spacer>
 
@@ -80,3 +81,9 @@ export default {
   }),
 };
 </script>
+
+<style >
+.titlee {
+  padding: 50px;
+}
+</style>
