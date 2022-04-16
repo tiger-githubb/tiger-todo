@@ -1,6 +1,7 @@
 <template>
   <div class="about pa-6">
     <h1>A Propos de Tiger To Do List</h1>
+    
 
     <p>
       <strong>Tiger To Do List</strong> est une application de gestion de tâches.
