@@ -52,11 +52,11 @@ export default {
   data() {
     return {
       tasks: [
-        // {
-        //   id: 1,
-        //   title: "Wake up",
-        //   done: false
-        // }
+        {
+          id: 0,
+          title: " ",
+          done: false,
+        },
       ],
     };
   },
